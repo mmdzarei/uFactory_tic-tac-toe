@@ -16,7 +16,7 @@ Clone the repository in your home directory in `/dev_ws`
 ### installation
 
 Clone the repository in your home directory in `/dev_ws`
-Remove the build and install and log folders using 
+If you want to rebuild the packages yourself, remove the build and install and log folders using 
 ```
 sudo rm -r -f build install log
 ```
@@ -31,18 +31,15 @@ chmod +x installation.sh
 
 For more details on the installation refer to [[[Installing ROS2 and xarm]]](#2--installing-ros2-and-xarm)
 
-Make sure you are in the `ROS2` packages in `/dev_ws` and not in `/dev_ws/src`
-
-Using `--symlink-install` makes it easier to edit your codes
+Before building the package make sure you are in `/dev_ws` and not in `/dev_ws/src`
+Using `--symlink-install` argument makes it easier to edit your code, so to build, do this
 ```
 colcon build --symlink-install
 ```
 
-
-
 ### Running the packages
 
-Make sure you source ROS2 and the installations before you run each command
+Make sure you source ROS2 and the installations before you run each command in new terminals:
 ```
 source /opt/ros/humble/setup.bash 
 source ~/dev_ws/install/setup.bash
