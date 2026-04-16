@@ -198,21 +198,21 @@ After installing the `VScode` we have to install these libraries:
  You can manually install the or use a ready-to-use script to install all of them. First the automatic installation is going to be explained and then the manual installation.
 We will proceed with the rest of the tutorial in `VScode` terminal
 After installing the `VScode` install  the `WSL` extension
-![Pasted image 20260219195059](../imgs/Pasted%20image%2020260219195059.png)
+![Pasted image 20260219195059](/imgs/Pasted%20image%2020260219195059.png)
 on the bottom left corner of the VScode click on the >< arrows and chose, `connect to WSL using distro` and the chose Ubuntu 
 
-![Pasted image 20260219195702](../imgs/Pasted%20image%2020260219195702.png)
+![Pasted image 20260219195702](/imgs/Pasted%20image%2020260219195702.png)
 
 
 The bottom left corner will turn blue and will have `WSL: Ubutnu` shown.
 
-![Pasted image 20260219200247](../imgs/Pasted%20image%2020260219200247.png)
+![Pasted image 20260219200247](/imgs/Pasted%20image%2020260219200247.png)
 
 
 On the terminal mane chose `New Terminal` and proceed with the rest of the tutorial
-![Pasted image 20260219195023](../imgs/Pasted%20image%2020260219195023.png)
+![Pasted image 20260219195023](/imgs/Pasted%20image%2020260219195023.png)
 
-![Pasted image 20260219200601](../imgs/Pasted%20image%2020260219200601.png)
+![Pasted image 20260219200601](/imgs/Pasted%20image%2020260219200601.png)
 
 
 To check your Ubuntu version use 
@@ -233,7 +233,7 @@ result should be something like:
 ## Method 1
 
 
-![ufactory_wsl2](../imgs/ufactory_wsl2.gif)
+![ufactory_wsl2](/imgs/ufactory_wsl2.gif)
 
 
 In the terminal create a file named `install.sh` using 
@@ -550,10 +550,10 @@ ros2 launch xarm_planner lite6_planner_realmove.launch.py robot_ip:=192.168.1.16
 
 Do not forget to add Markers for the grid and the cross to the `Rviz`
 ( `grid_map_marker` and `cross_trajectory_marker`)
-![Pasted image 20260305172035](Pasted%20image%2020260305172035.png)
+![Pasted image 20260305172035](/imgs/Pasted%20image%2020260305172035.png)
 
 
-![ufactory2_ros2_rviz2](../imgs/ufactory2_ros2_rviz2.gif)
+![ufactory2_ros2_rviz2](/imgs/ufactory2_ros2_rviz2.gif)
 
 ## Notes 
 
