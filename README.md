@@ -638,3 +638,10 @@ ros2 action send_goal /move_action moveit_msgs/action/MoveGroup "{
   }
 }"
 ```
+# Mechanical Parts 
+
+We have designed two 3D printed parts to hold the various pens with different sizes the spring could be softer and it is subjected to future re-designs 
+An overview of the designated parts and the `.stl` files are available here
+![1](/imgs/1.jpg)
+![2](/imgs/2.jpg)
+![3](/imgs/3.jpg)
