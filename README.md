@@ -26,7 +26,7 @@ chmod +x installation.sh
 ./installation.sh
 ```
 
-For more details on the installation refer to [[ufactory robot#2- Installing `ROS2` and `xarm`]]
+For more details on the installation refer to [[[Installing ROS2 and xarm]]](#2--installing-ros2-and-xarm)
 
 Make sure you are in the `ROS2` packages in `/dev_ws` and not in `/dev_ws/src`
 
