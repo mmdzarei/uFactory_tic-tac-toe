@@ -529,12 +529,6 @@ source install/setup.bash
 source /opt/ros/jazzy/setup.bash  
 ```
 
-# Video
-
-Make the link public later 
-https://drive.isr.uc.pt/d/f/17AfGIu4n1Ndh1rYxq7ZVuF0cpnoEWSh
-
-
 
 ## Motion Commands
 
@@ -551,3 +545,96 @@ or for the **real** robot you may use this(not tested):
 ros2 launch xarm_planner lite6_planner_realmove.launch.py robot_ip:=192.168.1.160 add_gripper:=true load_controller:=true use_sim_time:=true
 ```
 
+
+
+
+Do not forget to add Markers for the grid and the cross to the `Rviz`
+( `grid_map_marker` and `cross_trajectory_marker`)
+![Pasted image 20260305172035](Pasted%20image%2020260305172035.png)
+
+
+![ufactory2_ros2_rviz2](../imgs/ufactory2_ros2_rviz2.gif)
+
+## Notes 
+
+### Services to use as client for Cartesian movements
+Using services to plan and execute a move. In this way we call a service to move the robot to a certain position.
+You can `plan` a command and see if it is feasible then `execute` it, 
+
+Command to `plan` a motion:
+```
+ros2 service call /xarm_pose_plan xarm_msgs/srv/PlanPose "{target: {position: {x: 0.3, y: -0.1, z: 0.2}, orientation: {x: 1.0, y: 0.0, z: 0.0, w: 0.0}}}"
+```
+For a straight path we can use:
+```
+ros2 service call /xarm_straight_plan xarm_msgs/srv/PlanSingleStraight "{target: {position: {x: 0.1, y: 0.1, z: 0.2 }, orientation: {x: 1.0, y: 0.0, z: 0.0, w: 0.0}}}"
+```
+
+Command to `execute` a motion:
+```
+ros2 service call /xarm_exec_plan xarm_msgs/srv/PlanExec "{wait: true}"
+```
+
+### Gripper activation for `lite6`
+
+First go to this file and enable the `lite6_gripper` 
+`~/dev_ws/src/xarm_ros2/xarm_api/config/xarm_params.yaml`
+Edit these three lines:
+```
+open_lite6_gripper: true
+close_lite6_gripper: true
+stop_lite6_gripper: true
+```
+
+Now rebuild the package again using (in `~/dev_ws`):
+```
+colcon build --packages-select motion
+```
+
+Now you should be able to `open`, `close`, and `stop` the gripper's compressor using:
+```
+ros2 service call /ufactory/close_lite6_gripper xarm_msgs/srv/Call
+ros2 service call /ufactory/open_lite6_gripper xarm_msgs/srv/Call
+ros2 service call /ufactory/stop_lite6_gripper xarm_msgs/srv/Call
+```
+
+Now source again:
+```
+source ~/dev_ws/install/setup.bash
+```
+
+*Note: the gripper service in only available for the real robot*
+
+## To send position goals to `MoveIt2` and monitoring in `Gazebo`
+
+First run in order to call `MoveIt2` and `Gazebo` to run 
+```
+ros2 launch xarm_moveit_config lite6_moveit_gazebo.launch.py add_realsense_d435i:=true add_gripper:=true load_controller:=true use_sim_time:=true
+```
+
+
+Then in another terminal use this to send goal commands to `MoveIt` and in gazebo you will see the robot executing the action
+```
+ros2 action send_goal /move_action moveit_msgs/action/MoveGroup "{
+  request: {
+    group_name: 'lite6',
+    goal_constraints: [{
+      position_constraints: [{
+        header: {frame_id: 'link_base'},
+        link_name: 'link6',
+        constraint_region: {
+          primitive_poses: [{
+            position: {x: 0.3, y: 0.1, z: 0.2},
+            orientation: {x: 1.0, y: 0.0, z: 0.0, w: 0.0}
+          }],
+          primitives: [{type: 1, dimensions: [0.001, 0.001, 0.001]}]
+        },
+        weight: 1.0
+      }]
+    }],
+    allowed_planning_time: 10.0,
+    max_velocity_scaling_factor: 0.1,
+    max_acceleration_scaling_factor: 0.1
+  }
+}"
+```
