@@ -1,10 +1,13 @@
-# Human Robot tic-tac-toe Game
+# ROS2 Human Robot tic-tac-toe Game
 This is a tic-tac-toe game for the uFactory xArm lite6 robot.
 The robot uses a camera to detect the game status and then sends it to the game engine, which decides the next move and sends a position command from 0-8 to the motion module. Then the motion module takes the cell number and moves the robot to the required position and draws an X figure on the paper. 
 ### There are three main packages and nodes:
 **1- Image package** 
 **2- Game engine package**
 **3- Motion package**
+
+
+![ufactory2_ros2_rviz2](/imgs/ufactory2_ros2_rviz2.gif)
 
 
 ## Quick use ROS2: 
@@ -551,9 +554,6 @@ ros2 launch xarm_planner lite6_planner_realmove.launch.py robot_ip:=192.168.1.16
 Do not forget to add Markers for the grid and the cross to the `Rviz`
 ( `grid_map_marker` and `cross_trajectory_marker`)
 ![Pasted image 20260305172035](/imgs/Pasted%20image%2020260305172035.png)
-
-
-![ufactory2_ros2_rviz2](/imgs/ufactory2_ros2_rviz2.gif)
 
 ## Notes 
 
