@@ -92,8 +92,8 @@ source /opt/ros/humble/setup.bash
 source /dev_ws/install/setup.bash
 ros2 run game_package game_engine_node 
 ```
-
-# Ubuntu in Windows 
+# Detailed instructions
+## Ubuntu in Windows 
 
 This is an alternative approach to Virtual Machines. You can access Linux in your windows machine using **Windows Subsystem for Linux** (`WSL`). So, if your machine does not have Linux o.s installed you can still take advantage of your windows to create an Ubuntu machine inside your Windows o.s.
 
@@ -101,7 +101,7 @@ This is an alternative approach to Virtual Machines. You can access Linux in you
 In this section we will install the prerequisites for robot drivers and simulations, including the installation of `ros2` and `Rviz`, and `Gazebo` plus the `robot drivers`.
 
  
-# 1- Installing `WSL` and Ubuntu 24.04
+## 1- Installing `WSL` and Ubuntu 24.04
 
 Use this command in you windows power-shell. Open the windows power-shell in admin mode and type this:
 ### 1 Update `WSL`
@@ -189,7 +189,7 @@ wsl --terminate Ubuntu
 ```
 
 
-# 2- Installing `ROS2` and `xarm`
+## 2- Installing `ROS2` and `xarm`
 After installing the `VScode` we have to install these libraries:
 1- installation of `ROS2`
 2- installation of `Moveit2`
@@ -230,7 +230,7 @@ result should be something like:
 
 
 
-## Method 1
+### Method 1
 
 
 ![ufactory_wsl2](/imgs/ufactory_wsl2.gif)
@@ -375,8 +375,8 @@ ros2 run xarm_moveit_servo xarm_keyboard_input
 using number keys and the `R` button you can move each axis `CW` or `CCW` also by using `,` and `;` you can move the robot in Cartesian coordinates
 
 
-## Method 2
-### ROS2 installation on Ubuttu 24.02
+### Method 2
+#### ROS2 installation on Ubuttu 24.02
 
 Source: https://docs.ros.org/en/ros2_documentation/jazzy/Installation.html
 
@@ -440,13 +440,13 @@ source /opt/ros/jazzy/setup.bash
 ros2 run demo_nodes_py listener
 ```
 
-### MoveIt2 installation
+#### MoveIt2 installation
 
 ```
 sudo apt install ros-jazzy-moveit
 ```
 
-### Gazebo installation
+#### Gazebo installation
 
 ```
 sudo apt-get update
@@ -476,7 +476,7 @@ gz sim --version
 ```
 
 
-### Install xarm 
+#### Install xarm 
 
 ```
 cd ~
@@ -530,9 +530,9 @@ source /opt/ros/jazzy/setup.bash
 ```
 
 
-## Motion Commands
+### Motion Commands
 
-## Robot Connection in simulation and Real
+### Robot Connection in simulation and Real
 
 Use this command to open the `lite6` arm in a **simulation** for testing 
 ```
