@@ -1,0 +1,3 @@
+[console_scripts]
+game_engine_node = game_package.game_engine:main
+

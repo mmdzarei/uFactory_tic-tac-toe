@@ -1,0 +1,1 @@
+/home/is3l/dev_ws/build/xarm_planner/ament_cmake_core/xarm_plannerConfig.cmake

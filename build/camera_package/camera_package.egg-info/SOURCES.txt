@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+camera_package/__init__.py
+camera_package/img_pub.py
+camera_package.egg-info/PKG-INFO
+camera_package.egg-info/SOURCES.txt
+camera_package.egg-info/dependency_links.txt
+camera_package.egg-info/entry_points.txt
+camera_package.egg-info/requires.txt
+camera_package.egg-info/top_level.txt
+camera_package.egg-info/zip-safe
+resource/camera_package

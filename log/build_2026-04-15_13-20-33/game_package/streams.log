@@ -1,0 +1,24 @@
+[1.486s] Invoking command in '/home/is3l/dev_ws/build/game_package': PYTHONPATH=/home/is3l/dev_ws/build/game_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/is3l/dev_ws/install/game_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/is3l/dev_ws/build/game_package/build --no-deps symlink_data
+[1.914s] running develop
+[2.108s] running egg_info
+[2.108s] creating game_package.egg-info
+[2.108s] writing game_package.egg-info/PKG-INFO
+[2.109s] writing dependency_links to game_package.egg-info/dependency_links.txt
+[2.109s] writing entry points to game_package.egg-info/entry_points.txt
+[2.109s] writing requirements to game_package.egg-info/requires.txt
+[2.109s] writing top-level names to game_package.egg-info/top_level.txt
+[2.109s] writing manifest file 'game_package.egg-info/SOURCES.txt'
+[2.112s] reading manifest file 'game_package.egg-info/SOURCES.txt'
+[2.113s] writing manifest file 'game_package.egg-info/SOURCES.txt'
+[2.115s] running build_ext
+[2.116s] Creating /home/is3l/dev_ws/install/game_package/lib/python3.10/site-packages/game-package.egg-link (link to .)
+[2.117s] Installing game_engine_node script to /home/is3l/dev_ws/install/game_package/lib/game_package
+[2.117s] 
+[2.117s] Installed /home/is3l/dev_ws/build/game_package
+[2.118s] running symlink_data
+[2.118s] creating /home/is3l/dev_ws/install/game_package/share/ament_index
+[2.118s] creating /home/is3l/dev_ws/install/game_package/share/ament_index/resource_index
+[2.118s] creating /home/is3l/dev_ws/install/game_package/share/ament_index/resource_index/packages
+[2.118s] symbolically linking /home/is3l/dev_ws/build/game_package/resource/game_package -> /home/is3l/dev_ws/install/game_package/share/ament_index/resource_index/packages
+[2.119s] symbolically linking /home/is3l/dev_ws/build/game_package/package.xml -> /home/is3l/dev_ws/install/game_package/share/game_package
+[2.185s] Invoked command in '/home/is3l/dev_ws/build/game_package' returned '0': PYTHONPATH=/home/is3l/dev_ws/build/game_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/is3l/dev_ws/install/game_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/is3l/dev_ws/build/game_package/build --no-deps symlink_data

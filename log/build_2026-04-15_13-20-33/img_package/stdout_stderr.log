@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating img_package.egg-info
+writing img_package.egg-info/PKG-INFO
+writing dependency_links to img_package.egg-info/dependency_links.txt
+writing entry points to img_package.egg-info/entry_points.txt
+writing requirements to img_package.egg-info/requires.txt
+writing top-level names to img_package.egg-info/top_level.txt
+writing manifest file 'img_package.egg-info/SOURCES.txt'
+reading manifest file 'img_package.egg-info/SOURCES.txt'
+writing manifest file 'img_package.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/is3l/dev_ws/install/img_package/lib/python3.10/site-packages/img-package.egg-link (link to .)
+Installing image_publisher_node script to /home/is3l/dev_ws/install/img_package/lib/img_package
+
+Installed /home/is3l/dev_ws/build/img_package
+running symlink_data
+creating /home/is3l/dev_ws/install/img_package/share/ament_index
+creating /home/is3l/dev_ws/install/img_package/share/ament_index/resource_index
+creating /home/is3l/dev_ws/install/img_package/share/ament_index/resource_index/packages
+symbolically linking /home/is3l/dev_ws/build/img_package/resource/img_package -> /home/is3l/dev_ws/install/img_package/share/ament_index/resource_index/packages
+symbolically linking /home/is3l/dev_ws/build/img_package/package.xml -> /home/is3l/dev_ws/install/img_package/share/img_package

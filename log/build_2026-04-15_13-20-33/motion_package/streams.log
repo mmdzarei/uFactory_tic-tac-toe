@@ -1,0 +1,24 @@
+[1.470s] Invoking command in '/home/is3l/dev_ws/build/motion_package': PYTHONPATH=/home/is3l/dev_ws/build/motion_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/is3l/dev_ws/install/motion_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/is3l/dev_ws/build/motion_package/build --no-deps symlink_data
+[1.888s] running develop
+[2.072s] running egg_info
+[2.072s] creating motion_package.egg-info
+[2.072s] writing motion_package.egg-info/PKG-INFO
+[2.072s] writing dependency_links to motion_package.egg-info/dependency_links.txt
+[2.072s] writing entry points to motion_package.egg-info/entry_points.txt
+[2.072s] writing requirements to motion_package.egg-info/requires.txt
+[2.072s] writing top-level names to motion_package.egg-info/top_level.txt
+[2.074s] writing manifest file 'motion_package.egg-info/SOURCES.txt'
+[2.075s] reading manifest file 'motion_package.egg-info/SOURCES.txt'
+[2.075s] writing manifest file 'motion_package.egg-info/SOURCES.txt'
+[2.076s] running build_ext
+[2.077s] Creating /home/is3l/dev_ws/install/motion_package/lib/python3.10/site-packages/motion-package.egg-link (link to .)
+[2.077s] Installing grid_planner_node script to /home/is3l/dev_ws/install/motion_package/lib/motion_package
+[2.078s] 
+[2.078s] Installed /home/is3l/dev_ws/build/motion_package
+[2.078s] running symlink_data
+[2.078s] creating /home/is3l/dev_ws/install/motion_package/share/ament_index
+[2.078s] creating /home/is3l/dev_ws/install/motion_package/share/ament_index/resource_index
+[2.078s] creating /home/is3l/dev_ws/install/motion_package/share/ament_index/resource_index/packages
+[2.078s] symbolically linking /home/is3l/dev_ws/build/motion_package/resource/motion_package -> /home/is3l/dev_ws/install/motion_package/share/ament_index/resource_index/packages
+[2.078s] symbolically linking /home/is3l/dev_ws/build/motion_package/package.xml -> /home/is3l/dev_ws/install/motion_package/share/motion_package
+[2.111s] Invoked command in '/home/is3l/dev_ws/build/motion_package' returned '0': PYTHONPATH=/home/is3l/dev_ws/build/motion_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/is3l/dev_ws/install/motion_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/is3l/dev_ws/build/motion_package/build --no-deps symlink_data

@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+game_package/__init__.py
+game_package/game_engine.py
+game_package.egg-info/PKG-INFO
+game_package.egg-info/SOURCES.txt
+game_package.egg-info/dependency_links.txt
+game_package.egg-info/entry_points.txt
+game_package.egg-info/requires.txt
+game_package.egg-info/top_level.txt
+game_package.egg-info/zip-safe
+resource/game_package

@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+resource/test2
+test2/__init__.py
+test2/button_publisher.py
+test2/vector3_subscriber.py
+test2.egg-info/PKG-INFO
+test2.egg-info/SOURCES.txt
+test2.egg-info/dependency_links.txt
+test2.egg-info/entry_points.txt
+test2.egg-info/requires.txt
+test2.egg-info/top_level.txt
+test2.egg-info/zip-safe

@@ -1,0 +1,4 @@
+[console_scripts]
+button_publisher_node = test2.button_publisher:main
+vector3_subscriber_node = test2.vector3_subscriber:main
+

@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating game_package.egg-info
+writing game_package.egg-info/PKG-INFO
+writing dependency_links to game_package.egg-info/dependency_links.txt
+writing entry points to game_package.egg-info/entry_points.txt
+writing requirements to game_package.egg-info/requires.txt
+writing top-level names to game_package.egg-info/top_level.txt
+writing manifest file 'game_package.egg-info/SOURCES.txt'
+reading manifest file 'game_package.egg-info/SOURCES.txt'
+writing manifest file 'game_package.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/is3l/dev_ws/install/game_package/lib/python3.10/site-packages/game-package.egg-link (link to .)
+Installing game_engine_node script to /home/is3l/dev_ws/install/game_package/lib/game_package
+
+Installed /home/is3l/dev_ws/build/game_package
+running symlink_data
+creating /home/is3l/dev_ws/install/game_package/share/ament_index
+creating /home/is3l/dev_ws/install/game_package/share/ament_index/resource_index
+creating /home/is3l/dev_ws/install/game_package/share/ament_index/resource_index/packages
+symbolically linking /home/is3l/dev_ws/build/game_package/resource/game_package -> /home/is3l/dev_ws/install/game_package/share/ament_index/resource_index/packages
+symbolically linking /home/is3l/dev_ws/build/game_package/package.xml -> /home/is3l/dev_ws/install/game_package/share/game_package

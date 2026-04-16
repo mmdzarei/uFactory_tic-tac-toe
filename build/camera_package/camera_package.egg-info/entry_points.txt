@@ -1,0 +1,3 @@
+[console_scripts]
+camera_package_node = camera_package.img_pub:main
+

@@ -1,0 +1,1 @@
+/home/is3l/dev_ws/src/xarm_ros2/demo/mbot_demo/launch/mbot_moveit_gazebo.launch.py

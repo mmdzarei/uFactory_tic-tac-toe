@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+img_package/__init__.py
+img_package/image_publisher.py
+img_package.egg-info/PKG-INFO
+img_package.egg-info/SOURCES.txt
+img_package.egg-info/dependency_links.txt
+img_package.egg-info/entry_points.txt
+img_package.egg-info/requires.txt
+img_package.egg-info/top_level.txt
+img_package.egg-info/zip-safe
+resource/img_package

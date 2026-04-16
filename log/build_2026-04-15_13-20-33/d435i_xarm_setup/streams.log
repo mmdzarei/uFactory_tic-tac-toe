@@ -1,0 +1,104 @@
+[0.015s] Invoking command in '/home/is3l/dev_ws/build/d435i_xarm_setup': CMAKE_PREFIX_PATH=/home/is3l/dev_ws/install/xarm_api:/home/is3l/dev_ws/install/xarm_sdk:/home/is3l/dev_ws/install/xarm_msgs:/home/is3l/dev_ws/install/xarm_description:/home/is3l/dev_ws/install/xarm_planner:/home/is3l/dev_ws/install/xarm_moveit_servo:/home/is3l/dev_ws/install/xarm_moveit_config:/home/is3l/dev_ws/install/xarm_gazebo:/home/is3l/dev_ws/install/xarm_controller:/home/is3l/dev_ws/install/d435i_xarm_setup:/home/is3l/dev_ws/install/realsense_gazebo_plugin:/home/is3l/dev_ws/install/mbot_demo:/home/is3l/dev_ws/install/uf_ros_lib:/home/is3l/dev_ws/install/test2:/home/is3l/dev_ws/install/motion_package:/home/is3l/dev_ws/install/img_package:/home/is3l/dev_ws/install/game_package:/home/is3l/dev_ws/install/camera_package:/opt/ros/humble LD_LIBRARY_PATH=/home/is3l/dev_ws/install/xarm_api/lib:/home/is3l/dev_ws/install/xarm_sdk/lib:/home/is3l/dev_ws/install/xarm_msgs/lib:/home/is3l/dev_ws/install/xarm_planner/lib:/home/is3l/dev_ws/install/xarm_moveit_servo/lib:/home/is3l/dev_ws/install/xarm_gazebo/lib:/home/is3l/dev_ws/install/xarm_controller/lib:/home/is3l/dev_ws/install/realsense_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/is3l/dev_ws/src/xarm_ros2/xarm_vision/d435i_xarm_setup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/is3l/dev_ws/install/d435i_xarm_setup
+[0.056s] -- The C compiler identification is GNU 11.4.0
+[0.095s] -- The CXX compiler identification is GNU 11.4.0
+[0.099s] -- Detecting C compiler ABI info
+[0.155s] -- Detecting C compiler ABI info - done
+[0.161s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.161s] -- Detecting C compile features
+[0.162s] -- Detecting C compile features - done
+[0.163s] -- Detecting CXX compiler ABI info
+[0.221s] -- Detecting CXX compiler ABI info - done
+[0.226s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.226s] -- Detecting CXX compile features
+[0.226s] -- Detecting CXX compile features - done
+[0.228s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.332s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.374s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.395s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.421s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.425s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.430s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.439s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.453s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.484s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.486s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.566s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.588s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.616s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.621s] -- Looking for pthread.h
+[0.676s] -- Looking for pthread.h - found
+[0.676s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.731s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.733s] -- Found Threads: TRUE  
+[0.765s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.839s] -- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.849s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.850s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.850s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.852s] -- Found object_recognition_msgs: 2.0.0 (/opt/ros/humble/share/object_recognition_msgs/cmake)
+[0.887s] -- Found xarm_msgs: 0.0.0 (/home/is3l/dev_ws/install/xarm_msgs/share/xarm_msgs/cmake)
+[0.896s] -- Found xarm_api: 0.0.0 (/home/is3l/dev_ws/install/xarm_api/share/xarm_api/cmake)
+[0.905s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.961s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.962s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.962s] -- Configured cppcheck include dirs: 
+[0.962s] -- Configured cppcheck exclude dirs and/or files: 
+[0.963s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.963s] -- Configured cpplint exclude dirs and/or files: 
+[0.963s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.964s] -- Added test 'lint_cmake' to check CMake code style
+[0.964s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.965s] -- Added test 'uncrustify' to check C / C++ code style
+[0.965s] -- Configured uncrustify additional arguments: 
+[0.965s] -- Added test 'xmllint' to check XML markup files
+[0.966s] -- Configuring done
+[0.978s] -- Generating done
+[0.983s] -- Build files have been written to: /home/is3l/dev_ws/build/d435i_xarm_setup
+[0.991s] Invoked command in '/home/is3l/dev_ws/build/d435i_xarm_setup' returned '0': CMAKE_PREFIX_PATH=/home/is3l/dev_ws/install/xarm_api:/home/is3l/dev_ws/install/xarm_sdk:/home/is3l/dev_ws/install/xarm_msgs:/home/is3l/dev_ws/install/xarm_description:/home/is3l/dev_ws/install/xarm_planner:/home/is3l/dev_ws/install/xarm_moveit_servo:/home/is3l/dev_ws/install/xarm_moveit_config:/home/is3l/dev_ws/install/xarm_gazebo:/home/is3l/dev_ws/install/xarm_controller:/home/is3l/dev_ws/install/d435i_xarm_setup:/home/is3l/dev_ws/install/realsense_gazebo_plugin:/home/is3l/dev_ws/install/mbot_demo:/home/is3l/dev_ws/install/uf_ros_lib:/home/is3l/dev_ws/install/test2:/home/is3l/dev_ws/install/motion_package:/home/is3l/dev_ws/install/img_package:/home/is3l/dev_ws/install/game_package:/home/is3l/dev_ws/install/camera_package:/opt/ros/humble LD_LIBRARY_PATH=/home/is3l/dev_ws/install/xarm_api/lib:/home/is3l/dev_ws/install/xarm_sdk/lib:/home/is3l/dev_ws/install/xarm_msgs/lib:/home/is3l/dev_ws/install/xarm_planner/lib:/home/is3l/dev_ws/install/xarm_moveit_servo/lib:/home/is3l/dev_ws/install/xarm_gazebo/lib:/home/is3l/dev_ws/install/xarm_controller/lib:/home/is3l/dev_ws/install/realsense_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/is3l/dev_ws/src/xarm_ros2/xarm_vision/d435i_xarm_setup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/is3l/dev_ws/install/d435i_xarm_setup
+[0.993s] Invoking command in '/home/is3l/dev_ws/build/d435i_xarm_setup': CMAKE_PREFIX_PATH=/home/is3l/dev_ws/install/xarm_api:/home/is3l/dev_ws/install/xarm_sdk:/home/is3l/dev_ws/install/xarm_msgs:/home/is3l/dev_ws/install/xarm_description:/home/is3l/dev_ws/install/xarm_planner:/home/is3l/dev_ws/install/xarm_moveit_servo:/home/is3l/dev_ws/install/xarm_moveit_config:/home/is3l/dev_ws/install/xarm_gazebo:/home/is3l/dev_ws/install/xarm_controller:/home/is3l/dev_ws/install/d435i_xarm_setup:/home/is3l/dev_ws/install/realsense_gazebo_plugin:/home/is3l/dev_ws/install/mbot_demo:/home/is3l/dev_ws/install/uf_ros_lib:/home/is3l/dev_ws/install/test2:/home/is3l/dev_ws/install/motion_package:/home/is3l/dev_ws/install/img_package:/home/is3l/dev_ws/install/game_package:/home/is3l/dev_ws/install/camera_package:/opt/ros/humble LD_LIBRARY_PATH=/home/is3l/dev_ws/install/xarm_api/lib:/home/is3l/dev_ws/install/xarm_sdk/lib:/home/is3l/dev_ws/install/xarm_msgs/lib:/home/is3l/dev_ws/install/xarm_planner/lib:/home/is3l/dev_ws/install/xarm_moveit_servo/lib:/home/is3l/dev_ws/install/xarm_gazebo/lib:/home/is3l/dev_ws/install/xarm_controller/lib:/home/is3l/dev_ws/install/realsense_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/is3l/dev_ws/build/d435i_xarm_setup -- -j22 -l22
+[1.035s] [ 33%] [32mBuilding CXX object CMakeFiles/findobj_grasp_moveit_planner.dir/src/findobj_grasp_moveit_planner.cpp.o[0m
+[1.035s] [ 33%] [32mBuilding CXX object CMakeFiles/tf_object_to_base.dir/src/tf_object_to_base.cpp.o[0m
+[1.035s] [ 50%] [32mBuilding CXX object CMakeFiles/findobj_grasp_xarm_api.dir/src/findobj_grasp_xarm_api.cpp.o[0m
+[4.958s] [ 66%] [32m[1mLinking CXX executable findobj_grasp_xarm_api[0m
+[5.351s] [ 66%] Built target findobj_grasp_xarm_api
+[5.572s] [ 83%] [32m[1mLinking CXX executable findobj_grasp_moveit_planner[0m
+[5.831s] [ 83%] Built target findobj_grasp_moveit_planner
+[6.366s] [100%] [32m[1mLinking CXX executable tf_object_to_base[0m
+[6.728s] [100%] Built target tf_object_to_base
+[6.737s] Invoked command in '/home/is3l/dev_ws/build/d435i_xarm_setup' returned '0': CMAKE_PREFIX_PATH=/home/is3l/dev_ws/install/xarm_api:/home/is3l/dev_ws/install/xarm_sdk:/home/is3l/dev_ws/install/xarm_msgs:/home/is3l/dev_ws/install/xarm_description:/home/is3l/dev_ws/install/xarm_planner:/home/is3l/dev_ws/install/xarm_moveit_servo:/home/is3l/dev_ws/install/xarm_moveit_config:/home/is3l/dev_ws/install/xarm_gazebo:/home/is3l/dev_ws/install/xarm_controller:/home/is3l/dev_ws/install/d435i_xarm_setup:/home/is3l/dev_ws/install/realsense_gazebo_plugin:/home/is3l/dev_ws/install/mbot_demo:/home/is3l/dev_ws/install/uf_ros_lib:/home/is3l/dev_ws/install/test2:/home/is3l/dev_ws/install/motion_package:/home/is3l/dev_ws/install/img_package:/home/is3l/dev_ws/install/game_package:/home/is3l/dev_ws/install/camera_package:/opt/ros/humble LD_LIBRARY_PATH=/home/is3l/dev_ws/install/xarm_api/lib:/home/is3l/dev_ws/install/xarm_sdk/lib:/home/is3l/dev_ws/install/xarm_msgs/lib:/home/is3l/dev_ws/install/xarm_planner/lib:/home/is3l/dev_ws/install/xarm_moveit_servo/lib:/home/is3l/dev_ws/install/xarm_gazebo/lib:/home/is3l/dev_ws/install/xarm_controller/lib:/home/is3l/dev_ws/install/realsense_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/is3l/dev_ws/build/d435i_xarm_setup -- -j22 -l22
+[6.738s] Invoking command in '/home/is3l/dev_ws/build/d435i_xarm_setup': CMAKE_PREFIX_PATH=/home/is3l/dev_ws/install/xarm_api:/home/is3l/dev_ws/install/xarm_sdk:/home/is3l/dev_ws/install/xarm_msgs:/home/is3l/dev_ws/install/xarm_description:/home/is3l/dev_ws/install/xarm_planner:/home/is3l/dev_ws/install/xarm_moveit_servo:/home/is3l/dev_ws/install/xarm_moveit_config:/home/is3l/dev_ws/install/xarm_gazebo:/home/is3l/dev_ws/install/xarm_controller:/home/is3l/dev_ws/install/d435i_xarm_setup:/home/is3l/dev_ws/install/realsense_gazebo_plugin:/home/is3l/dev_ws/install/mbot_demo:/home/is3l/dev_ws/install/uf_ros_lib:/home/is3l/dev_ws/install/test2:/home/is3l/dev_ws/install/motion_package:/home/is3l/dev_ws/install/img_package:/home/is3l/dev_ws/install/game_package:/home/is3l/dev_ws/install/camera_package:/opt/ros/humble LD_LIBRARY_PATH=/home/is3l/dev_ws/install/xarm_api/lib:/home/is3l/dev_ws/install/xarm_sdk/lib:/home/is3l/dev_ws/install/xarm_msgs/lib:/home/is3l/dev_ws/install/xarm_planner/lib:/home/is3l/dev_ws/install/xarm_moveit_servo/lib:/home/is3l/dev_ws/install/xarm_gazebo/lib:/home/is3l/dev_ws/install/xarm_controller/lib:/home/is3l/dev_ws/install/realsense_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/is3l/dev_ws/build/d435i_xarm_setup
+[6.747s] -- Install configuration: ""
+[6.747s] -- Execute custom install script
+[6.747s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//launch/d435i_findobj2d_robot_api.launch.py
+[6.755s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//launch/d435i_findobj2d_robot_moveit_planner.launch.py
+[6.760s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//launch/d435i_robot_auto_calib.launch.py
+[6.766s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//launch/d435i_robot_ork_linemod.launch.py
+[6.774s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//launch/grasp_node_robot_api.launch.py
+[6.782s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//launch/grasp_node_robot_moveit_planner.launch.py
+[6.789s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//launch/publish_handeye_tf.launch.py
+[6.794s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//launch/start_find_obj_2d.launch.py
+[6.800s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//objects/1.png
+[6.806s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//objects/2.png
+[6.813s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//config/extra_robot_api_params.yaml
+[6.820s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//config/lite_rs_on_hand_calibration.calib
+[6.828s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//config/uf850_rs_on_hand_calibration.calib
+[6.835s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//config/xarm_rs_on_hand_calibration.calib
+[6.843s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/lib/d435i_xarm_setup/findobj_grasp_moveit_planner
+[6.851s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/lib/d435i_xarm_setup/findobj_grasp_xarm_api
+[6.859s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/lib/d435i_xarm_setup/tf_object_to_base
+[6.867s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/share/ament_index/resource_index/package_run_dependencies/d435i_xarm_setup
+[6.873s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/share/ament_index/resource_index/parent_prefix_path/d435i_xarm_setup
+[6.881s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/share/d435i_xarm_setup/environment/ament_prefix_path.sh
+[6.888s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/share/d435i_xarm_setup/environment/ament_prefix_path.dsv
+[6.894s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/share/d435i_xarm_setup/environment/path.sh
+[6.901s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/share/d435i_xarm_setup/environment/path.dsv
+[6.906s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/share/d435i_xarm_setup/local_setup.bash
+[6.912s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/share/d435i_xarm_setup/local_setup.sh
+[6.918s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/share/d435i_xarm_setup/local_setup.zsh
+[6.926s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/share/d435i_xarm_setup/local_setup.dsv
+[6.932s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/share/d435i_xarm_setup/package.dsv
+[6.939s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/share/ament_index/resource_index/packages/d435i_xarm_setup
+[6.947s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/share/d435i_xarm_setup/cmake/d435i_xarm_setupConfig.cmake
+[6.952s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/share/d435i_xarm_setup/cmake/d435i_xarm_setupConfig-version.cmake
+[6.959s] -- Symlinking: /home/is3l/dev_ws/install/d435i_xarm_setup/share/d435i_xarm_setup/package.xml
+[6.968s] Invoked command in '/home/is3l/dev_ws/build/d435i_xarm_setup' returned '0': CMAKE_PREFIX_PATH=/home/is3l/dev_ws/install/xarm_api:/home/is3l/dev_ws/install/xarm_sdk:/home/is3l/dev_ws/install/xarm_msgs:/home/is3l/dev_ws/install/xarm_description:/home/is3l/dev_ws/install/xarm_planner:/home/is3l/dev_ws/install/xarm_moveit_servo:/home/is3l/dev_ws/install/xarm_moveit_config:/home/is3l/dev_ws/install/xarm_gazebo:/home/is3l/dev_ws/install/xarm_controller:/home/is3l/dev_ws/install/d435i_xarm_setup:/home/is3l/dev_ws/install/realsense_gazebo_plugin:/home/is3l/dev_ws/install/mbot_demo:/home/is3l/dev_ws/install/uf_ros_lib:/home/is3l/dev_ws/install/test2:/home/is3l/dev_ws/install/motion_package:/home/is3l/dev_ws/install/img_package:/home/is3l/dev_ws/install/game_package:/home/is3l/dev_ws/install/camera_package:/opt/ros/humble LD_LIBRARY_PATH=/home/is3l/dev_ws/install/xarm_api/lib:/home/is3l/dev_ws/install/xarm_sdk/lib:/home/is3l/dev_ws/install/xarm_msgs/lib:/home/is3l/dev_ws/install/xarm_planner/lib:/home/is3l/dev_ws/install/xarm_moveit_servo/lib:/home/is3l/dev_ws/install/xarm_gazebo/lib:/home/is3l/dev_ws/install/xarm_controller/lib:/home/is3l/dev_ws/install/realsense_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/is3l/dev_ws/build/d435i_xarm_setup

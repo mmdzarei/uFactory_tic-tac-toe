@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating test2.egg-info
+writing test2.egg-info/PKG-INFO
+writing dependency_links to test2.egg-info/dependency_links.txt
+writing entry points to test2.egg-info/entry_points.txt
+writing requirements to test2.egg-info/requires.txt
+writing top-level names to test2.egg-info/top_level.txt
+writing manifest file 'test2.egg-info/SOURCES.txt'
+reading manifest file 'test2.egg-info/SOURCES.txt'
+writing manifest file 'test2.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/is3l/dev_ws/install/test2/lib/python3.10/site-packages/test2.egg-link (link to .)
+Installing button_publisher_node script to /home/is3l/dev_ws/install/test2/lib/test2
+Installing vector3_subscriber_node script to /home/is3l/dev_ws/install/test2/lib/test2
+
+Installed /home/is3l/dev_ws/build/test2
+running symlink_data
+creating /home/is3l/dev_ws/install/test2/share/ament_index
+creating /home/is3l/dev_ws/install/test2/share/ament_index/resource_index
+creating /home/is3l/dev_ws/install/test2/share/ament_index/resource_index/packages
+symbolically linking /home/is3l/dev_ws/build/test2/resource/test2 -> /home/is3l/dev_ws/install/test2/share/ament_index/resource_index/packages
+symbolically linking /home/is3l/dev_ws/build/test2/package.xml -> /home/is3l/dev_ws/install/test2/share/test2

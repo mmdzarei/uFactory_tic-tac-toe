@@ -1,0 +1,3 @@
+[console_scripts]
+image_publisher_node = img_package.image_publisher:main
+

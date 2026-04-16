@@ -1,0 +1,272 @@
+[0.030s] Invoking command in '/home/is3l/dev_ws/build/xarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/is3l/dev_ws/install/uf_ros_lib:/home/is3l/dev_ws/install/test2:/home/is3l/dev_ws/install/motion_package:/home/is3l/dev_ws/install/img_package:/home/is3l/dev_ws/install/game_package:/home/is3l/dev_ws/install/camera_package:/opt/ros/humble /usr/bin/cmake /home/is3l/dev_ws/src/xarm_ros2/xarm_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/is3l/dev_ws/install/xarm_description
+[0.804s] -- The C compiler identification is GNU 11.4.0
+[0.804s] -- The CXX compiler identification is GNU 11.4.0
+[0.804s] -- Detecting C compiler ABI info
+[0.804s] -- Detecting C compiler ABI info - done
+[0.804s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.804s] -- Detecting C compile features
+[0.804s] -- Detecting C compile features - done
+[0.804s] -- Detecting CXX compiler ABI info
+[0.804s] -- Detecting CXX compiler ABI info - done
+[0.804s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.804s] -- Detecting CXX compile features
+[0.804s] -- Detecting CXX compile features - done
+[0.804s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.804s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.804s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.804s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.804s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.804s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.805s] -- Added test 'lint_cmake' to check CMake code style
+[0.805s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.805s] -- Added test 'xmllint' to check XML markup files
+[0.805s] -- Configuring done
+[0.805s] -- Generating done
+[0.805s] -- Build files have been written to: /home/is3l/dev_ws/build/xarm_description
+[0.959s] Invoked command in '/home/is3l/dev_ws/build/xarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/is3l/dev_ws/install/uf_ros_lib:/home/is3l/dev_ws/install/test2:/home/is3l/dev_ws/install/motion_package:/home/is3l/dev_ws/install/img_package:/home/is3l/dev_ws/install/game_package:/home/is3l/dev_ws/install/camera_package:/opt/ros/humble /usr/bin/cmake /home/is3l/dev_ws/src/xarm_ros2/xarm_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/is3l/dev_ws/install/xarm_description
+[0.960s] Invoking command in '/home/is3l/dev_ws/build/xarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/is3l/dev_ws/install/uf_ros_lib:/home/is3l/dev_ws/install/test2:/home/is3l/dev_ws/install/motion_package:/home/is3l/dev_ws/install/img_package:/home/is3l/dev_ws/install/game_package:/home/is3l/dev_ws/install/camera_package:/opt/ros/humble /usr/bin/cmake --build /home/is3l/dev_ws/build/xarm_description -- -j22 -l22
+[0.990s] Invoked command in '/home/is3l/dev_ws/build/xarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/is3l/dev_ws/install/uf_ros_lib:/home/is3l/dev_ws/install/test2:/home/is3l/dev_ws/install/motion_package:/home/is3l/dev_ws/install/img_package:/home/is3l/dev_ws/install/game_package:/home/is3l/dev_ws/install/camera_package:/opt/ros/humble /usr/bin/cmake --build /home/is3l/dev_ws/build/xarm_description -- -j22 -l22
+[1.000s] Invoking command in '/home/is3l/dev_ws/build/xarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/is3l/dev_ws/install/uf_ros_lib:/home/is3l/dev_ws/install/test2:/home/is3l/dev_ws/install/motion_package:/home/is3l/dev_ws/install/img_package:/home/is3l/dev_ws/install/game_package:/home/is3l/dev_ws/install/camera_package:/opt/ros/humble /usr/bin/cmake --install /home/is3l/dev_ws/build/xarm_description
+[1.007s] -- Install configuration: ""
+[1.008s] -- Execute custom install script
+[1.008s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//rviz/display.rviz
+[1.018s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/_private_macro.xacro
+[1.042s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/camera/camera.gazebo.xacro
+[1.105s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/camera/realsense.gazebo.xacro
+[1.131s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/camera/realsense_d435i.urdf.xacro
+[1.157s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/common/common.gazebo.xacro
+[1.205s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/common/common.link.xacro
+[1.226s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/common/common.material.xacro
+[1.247s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/dual_xarm_device.urdf.xacro
+[1.314s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/gripper/bio_gripper.gazebo.xacro
+[1.332s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/gripper/bio_gripper.ros2_control.xacro
+[1.346s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/gripper/bio_gripper.transmission.xacro
+[1.368s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/gripper/bio_gripper.urdf.xacro
+[1.388s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/gripper/bio_gripper_macro.xacro
+[1.411s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/gripper/gripper.urdf.xacro
+[1.438s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/gripper/gripper_macro.xacro
+[1.471s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/gripper/lite_gripper.urdf.xacro
+[1.487s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/gripper/xarm_gripper.gazebo.xacro
+[1.511s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/gripper/xarm_gripper.ros2_control.xacro
+[1.537s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/gripper/xarm_gripper.transmission.xacro
+[1.558s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/gripper/xarm_gripper.urdf.xacro
+[1.580s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/gripper/xarm_gripper_macro.xacro
+[1.629s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/lite6/lite6.gazebo.xacro
+[1.670s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/lite6/lite6.ros2_control.xacro
+[1.726s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/lite6/lite6.transmission.xacro
+[1.768s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/lite6/lite6.urdf.xacro
+[1.829s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/lite6/lite6_robot_macro.xacro
+[1.875s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/other/other_geometry.urdf.xacro
+[1.891s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/uf850/uf850.gazebo.xacro
+[1.907s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/uf850/uf850.ros2_control.xacro
+[1.928s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/uf850/uf850.transmission.xacro
+[1.947s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/uf850/uf850.urdf.xacro
+[1.967s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/uf850/uf850_robot_macro.xacro
+[2.013s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/vacuum_gripper/lite_vacuum_gripper.urdf.xacro
+[2.023s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/vacuum_gripper/vacuum_gripper.urdf.xacro
+[2.074s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/vacuum_gripper/vacuum_gripper_macro.xacro
+[2.101s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/vacuum_gripper/xarm_vacuum_gripper.urdf.xacro
+[2.111s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/xarm5/xarm5.gazebo.xacro
+[2.119s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/xarm5/xarm5.ros2_control.xacro
+[2.127s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/xarm5/xarm5.transmission.xacro
+[2.136s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/xarm5/xarm5.urdf.xacro
+[2.145s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/xarm5/xarm5_robot_macro.xacro
+[2.152s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/xarm6/xarm6.gazebo.xacro
+[2.160s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/xarm6/xarm6.ros2_control.xacro
+[2.167s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/xarm6/xarm6.transmission.xacro
+[2.175s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/xarm6/xarm6.urdf.xacro
+[2.183s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/xarm6/xarm6_robot_macro.xacro
+[2.189s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/xarm7/xarm7.gazebo.xacro
+[2.196s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/xarm7/xarm7.ros2_control.xacro
+[2.203s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/xarm7/xarm7.transmission.xacro
+[2.209s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/xarm7/xarm7.urdf.xacro
+[2.215s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/xarm7/xarm7_robot_macro.xacro
+[2.224s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/xarm7_mirror/xarm7_mirror.gazebo.xacro
+[2.233s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/xarm7_mirror/xarm7_mirror.ros2_control.xacro
+[2.247s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/xarm7_mirror/xarm7_mirror.transmission.xacro
+[2.254s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/xarm7_mirror/xarm7_mirror.urdf.xacro
+[2.263s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/xarm7_mirror/xarm7_mirror_robot_macro.xacro
+[2.273s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/xarm_device.urdf.xacro
+[2.280s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//urdf/xarm_device_macro.xacro
+[2.287s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//config/kinematics/default/lite6_default_kinematics.yaml
+[2.295s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//config/kinematics/default/uf850_default_kinematics.yaml
+[2.300s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//config/kinematics/default/xarm5_default_kinematics.yaml
+[2.307s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//config/kinematics/default/xarm6_default_kinematics.yaml
+[2.314s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//config/kinematics/default/xarm7_default_kinematics.yaml
+[2.320s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//config/kinematics/default/xarm7_mirror_default_kinematics.yaml
+[2.329s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//config/kinematics/gen_kinematics_params.py
+[2.339s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//config/link_inertial/gen_link_inertial_params.py
+[2.347s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm5_type5_HT_BR.yaml
+[2.354s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm5_type5_HT_BR2.yaml
+[2.360s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm5_type5_HT_LD.yaml
+[2.367s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm5_type5_UJ_BR_2403.yaml
+[2.372s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type11_HT_LD.yaml
+[2.379s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type12_HT_LDBR2.yaml
+[2.387s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type6_HT2_LD.yaml
+[2.396s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type6_HT_BR.yaml
+[2.406s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type6_HT_BR2.yaml
+[2.415s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type6_HT_LD.yaml
+[2.421s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type6_UJ_BR_2403.yaml
+[2.431s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type8_HT2_BR2.yaml
+[2.440s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type9_HT_BR2.yaml
+[2.447s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm7_type13_HT_BR2.yaml
+[2.455s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm7_type3_YT_SP.yaml
+[2.462s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm7_type7_HT_BR.yaml
+[2.468s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm7_type7_HT_BR2.yaml
+[2.474s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm7_type7_HT_LD.yaml
+[2.482s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm7_type7_UJ_BR_2403.yaml
+[2.492s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/camera/realsense/collision/d435_with_cam_stand.stl
+[2.498s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/camera/realsense/visual/d435_with_cam_stand.stl
+[2.505s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/end_tool/collision/end_tool.stl
+[2.512s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/end_tool/collision/end_tool_1300.stl
+[2.519s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/end_tool/visual/end_tool_1300.stl
+[2.526s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/gripper/bio/left_finger.stl
+[2.532s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/gripper/bio/link_base.stl
+[2.537s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/gripper/bio/right_finger.stl
+[2.544s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/gripper/lite/collision/gripper_lite.stl
+[2.554s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/gripper/lite/visual/gripper_lite.stl
+[2.561s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/base_link.stl
+[2.568s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/left_finger.stl
+[2.574s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/left_inner_knuckle.stl
+[2.581s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/left_outer_knuckle.stl
+[2.588s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/right_finger.stl
+[2.594s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/right_inner_knuckle.stl
+[2.602s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/right_outer_knuckle.stl
+[2.612s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/lite6/collision/link1.stl
+[2.619s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/lite6/collision/link2.stl
+[2.628s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/lite6/collision/link3.stl
+[2.635s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/lite6/collision/link4.stl
+[2.643s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/lite6/collision/link5.stl
+[2.649s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/lite6/collision/link6.stl
+[2.655s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/lite6/collision/link_base.stl
+[2.660s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/lite6/visual/link1.stl
+[2.665s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/lite6/visual/link2.stl
+[2.672s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/lite6/visual/link3.stl
+[2.678s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/lite6/visual/link4.stl
+[2.684s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/lite6/visual/link5.stl
+[2.690s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/lite6/visual/link6.stl
+[2.698s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/lite6/visual/link_base.stl
+[2.706s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/uf850/collision/link1.stl
+[2.712s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/uf850/collision/link2.stl
+[2.718s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/uf850/collision/link3.stl
+[2.723s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/uf850/collision/link4.stl
+[2.729s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/uf850/collision/link5.stl
+[2.737s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/uf850/collision/link6.stl
+[2.745s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/uf850/collision/link_base.stl
+[2.752s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/uf850/visual/link1.stl
+[2.760s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/uf850/visual/link2.stl
+[2.766s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/uf850/visual/link3.stl
+[2.773s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/uf850/visual/link4.stl
+[2.780s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/uf850/visual/link5.stl
+[2.788s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/uf850/visual/link6.stl
+[2.794s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/uf850/visual/link_base.stl
+[2.802s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/lite/collision/vacuum_gripper_lite.stl
+[2.811s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/lite/visual/vacuum_gripper_lite.stl
+[2.820s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/xarm/collision/vacuum_gripper.stl
+[2.828s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/xarm/visual/vacuum_gripper.stl
+[2.839s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm5/visual/link1.stl
+[2.846s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm5/visual/link2.stl
+[2.853s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm5/visual/link3.stl
+[2.862s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm5/visual/link4.stl
+[2.871s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm5/visual/link5.stl
+[2.879s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm5/visual/link_base.stl
+[2.887s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/collision/link1.obj
+[2.896s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/collision/link2.obj
+[2.905s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/collision/link3.obj
+[2.912s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/collision/link4.obj
+[2.921s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/collision/link5.obj
+[2.929s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/collision/link_base.obj
+[2.939s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/visual/link1.stl
+[2.947s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/visual/link2.stl
+[2.955s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/visual/link3.stl
+[2.964s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/visual/link4.stl
+[2.969s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/visual/link5.stl
+[2.977s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/visual/link_base.stl
+[2.985s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link1.stl
+[2.993s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link2.stl
+[3.001s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link3.stl
+[3.008s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link4.stl
+[3.016s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link5.stl
+[3.025s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link6.stl
+[3.033s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link_base.stl
+[3.042s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/collision/link1.obj
+[3.048s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/collision/link2.obj
+[3.057s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/collision/link3.obj
+[3.065s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/collision/link4.obj
+[3.074s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/collision/link5.obj
+[3.081s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/collision/link6.obj
+[3.089s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/collision/link_base.obj
+[3.098s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/visual/link1.stl
+[3.106s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/visual/link2.stl
+[3.115s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/visual/link3.stl
+[3.124s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/visual/link4.stl
+[3.131s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/visual/link5.stl
+[3.140s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/visual/link6.stl
+[3.150s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/visual/link_base.stl
+[3.159s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link1.stl
+[3.166s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link2.stl
+[3.172s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link3.stl
+[3.178s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link4.stl
+[3.187s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link5.stl
+[3.192s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link6.stl
+[3.199s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link7.stl
+[3.208s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link_base.stl
+[3.215s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/collision/link1.obj
+[3.221s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/collision/link2.obj
+[3.229s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/collision/link3.obj
+[3.237s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/collision/link4.obj
+[3.245s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/collision/link5.obj
+[3.251s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/collision/link6.obj
+[3.259s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/collision/link7.obj
+[3.267s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/collision/link_base.obj
+[3.275s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link1.stl
+[3.283s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link2.stl
+[3.290s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link3.stl
+[3.298s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link4.stl
+[3.306s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link5.stl
+[3.315s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link6.stl
+[3.323s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link7.stl
+[3.331s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link_base.stl
+[3.337s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link1.stl
+[3.346s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link2.stl
+[3.352s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link3.stl
+[3.360s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link4.stl
+[3.369s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link5.stl
+[3.377s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link6.stl
+[3.382s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link7.stl
+[3.390s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link_base.stl
+[3.398s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link1.stl
+[3.408s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link2.stl
+[3.417s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link3.stl
+[3.424s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link4.stl
+[3.431s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link5.stl
+[3.438s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link6.stl
+[3.448s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link7.stl
+[3.457s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link_base.stl
+[3.464s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//launch/_robot_description.launch.py
+[3.472s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//launch/_robot_joint_state.launch.py
+[3.480s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//launch/_robot_rviz_display.launch.py
+[3.488s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//launch/_rviz_display.launch.py
+[3.497s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//launch/lib/robot_description_lib.py
+[3.503s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//launch/lite6_rviz_display.launch.py
+[3.511s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//launch/uf850_rviz_display.launch.py
+[3.518s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//launch/xarm5_rviz_display.launch.py
+[3.525s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//launch/xarm6_rviz_display.launch.py
+[3.531s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//launch/xarm7_mirror_rviz_display.launch.py
+[3.537s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description//launch/xarm7_rviz_display.launch.py
+[3.545s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/ament_index/resource_index/package_run_dependencies/xarm_description
+[3.551s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/ament_index/resource_index/parent_prefix_path/xarm_description
+[3.561s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description/environment/ament_prefix_path.sh
+[3.567s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description/environment/ament_prefix_path.dsv
+[3.575s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description/environment/path.sh
+[3.583s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description/environment/path.dsv
+[3.589s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description/local_setup.bash
+[3.595s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description/local_setup.sh
+[3.604s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description/local_setup.zsh
+[3.613s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description/local_setup.dsv
+[3.621s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description/package.dsv
+[3.628s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/ament_index/resource_index/packages/xarm_description
+[3.635s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description/cmake/xarm_descriptionConfig.cmake
+[3.644s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description/cmake/xarm_descriptionConfig-version.cmake
+[3.652s] -- Symlinking: /home/is3l/dev_ws/install/xarm_description/share/xarm_description/package.xml
+[3.664s] Invoked command in '/home/is3l/dev_ws/build/xarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/is3l/dev_ws/install/uf_ros_lib:/home/is3l/dev_ws/install/test2:/home/is3l/dev_ws/install/motion_package:/home/is3l/dev_ws/install/img_package:/home/is3l/dev_ws/install/game_package:/home/is3l/dev_ws/install/camera_package:/opt/ros/humble /usr/bin/cmake --install /home/is3l/dev_ws/build/xarm_description

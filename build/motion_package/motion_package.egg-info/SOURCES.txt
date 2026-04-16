@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+motion_package/__init__.py
+motion_package/grid_to_pose.py
+motion_package.egg-info/PKG-INFO
+motion_package.egg-info/SOURCES.txt
+motion_package.egg-info/dependency_links.txt
+motion_package.egg-info/entry_points.txt
+motion_package.egg-info/requires.txt
+motion_package.egg-info/top_level.txt
+motion_package.egg-info/zip-safe
+resource/motion_package

@@ -1,0 +1,23 @@
+[1.460s] Invoking command in '/home/is3l/dev_ws/build/uf_ros_lib': PYTHONPATH=/home/is3l/dev_ws/build/uf_ros_lib/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/is3l/dev_ws/install/uf_ros_lib/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/is3l/dev_ws/build/uf_ros_lib/build --no-deps symlink_data
+[2.103s] running develop
+[2.267s] running egg_info
+[2.267s] creating uf_ros_lib.egg-info
+[2.267s] writing uf_ros_lib.egg-info/PKG-INFO
+[2.267s] writing dependency_links to uf_ros_lib.egg-info/dependency_links.txt
+[2.267s] writing entry points to uf_ros_lib.egg-info/entry_points.txt
+[2.267s] writing requirements to uf_ros_lib.egg-info/requires.txt
+[2.267s] writing top-level names to uf_ros_lib.egg-info/top_level.txt
+[2.268s] writing manifest file 'uf_ros_lib.egg-info/SOURCES.txt'
+[2.270s] reading manifest file 'uf_ros_lib.egg-info/SOURCES.txt'
+[2.271s] writing manifest file 'uf_ros_lib.egg-info/SOURCES.txt'
+[2.273s] running build_ext
+[2.273s] Creating /home/is3l/dev_ws/install/uf_ros_lib/lib/python3.10/site-packages/uf-ros-lib.egg-link (link to .)
+[2.276s] 
+[2.276s] Installed /home/is3l/dev_ws/build/uf_ros_lib
+[2.276s] running symlink_data
+[2.276s] creating /home/is3l/dev_ws/install/uf_ros_lib/share/ament_index
+[2.276s] creating /home/is3l/dev_ws/install/uf_ros_lib/share/ament_index/resource_index
+[2.276s] creating /home/is3l/dev_ws/install/uf_ros_lib/share/ament_index/resource_index/packages
+[2.277s] symbolically linking /home/is3l/dev_ws/build/uf_ros_lib/resource/uf_ros_lib -> /home/is3l/dev_ws/install/uf_ros_lib/share/ament_index/resource_index/packages
+[2.277s] symbolically linking /home/is3l/dev_ws/build/uf_ros_lib/package.xml -> /home/is3l/dev_ws/install/uf_ros_lib/share/uf_ros_lib
+[2.338s] Invoked command in '/home/is3l/dev_ws/build/uf_ros_lib' returned '0': PYTHONPATH=/home/is3l/dev_ws/build/uf_ros_lib/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/is3l/dev_ws/install/uf_ros_lib/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/is3l/dev_ws/build/uf_ros_lib/build --no-deps symlink_data
